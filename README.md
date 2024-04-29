@@ -1,6 +1,7 @@
 # Brastlewark
 
 This project is a web application that allows heroes to search and filter gnomes residing in Brastlewark.
+All the code is in the src file.
 
 
 ## Features
