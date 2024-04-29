@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Brastlewark/static/css/main.78fb0021.css",
+    "main.js": "/Brastlewark/static/js/main.38f392b2.js",
+    "static/media/backgroudimage.jpeg": "/Brastlewark/static/media/backgroudimage.fd854966605f08cd1fbc.jpeg",
+    "static/media/sky.avif": "/Brastlewark/static/media/sky.79e61f90eaa5b190587c.avif",
+    "index.html": "/Brastlewark/index.html",
+    "main.78fb0021.css.map": "/Brastlewark/static/css/main.78fb0021.css.map",
+    "main.38f392b2.js.map": "/Brastlewark/static/js/main.38f392b2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78fb0021.css",
+    "static/js/main.38f392b2.js"
+  ]
+}
