@@ -7,6 +7,8 @@ This project is a web application that allows heroes to search and filter gnomes
 - **Gnome Search**: Users can search for gnomes by their name using the search bar.
 - **Favorite Gnome**: Users can add their favorite gnomes to a special list for easy access. This feature allows users to personalize their experience and quickly navigate to the gnomes they are most interested in.
 - **Gnome List**: Gnomes that match the search and filters are displayed in a list.
+- **Gender of gnomes** : GitHub Copilot
+In this function, I've created three categories of gnomes: 'Gnomes of the Depths', 'Forest Gnomes', and 'Rock Gnomes'. I've then assigned these categories randomly to the gnomes in the data fetched from the provided URL
 
 ## Approach
 
