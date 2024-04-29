@@ -63,10 +63,11 @@ function GnomeList() {
   };
 
   const filterGnomesByAttribute = (searchString, attribute) => {
-    const filtered = gnomes.filter(gnome => {
-      return gnome[attribute].toString().toLowerCase().includes(searchString.toLowerCase());
+    setFilteredGnomes(prevGnomes => {
+      return prevGnomes.filter(gnome => {
+        return gnome[attribute].toString().toLowerCase().includes(searchString.toLowerCase());
+      });
     });
-    setFilteredGnomes(filtered);
   };
 
   const toggleProfession = (profession) => {
