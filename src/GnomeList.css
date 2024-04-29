@@ -232,3 +232,53 @@
   font-family: 'Press Start 2P', cursive; 
   border: 2px solid black;  
 }
+
+@media (max-width: 600px) {
+  .profession-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profession-buttons button {
+    margin: 10px auto;
+  }
+
+  .gnome-list {
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .gnome-details {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .gnome-container {
+    align-items: center;
+  }
+
+  .gnome-content {
+    flex-direction: column;
+  }
+
+  .search-bar input {
+    width: 100%;
+  }
+
+  .search-and-filter-section {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .filter-section {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .filter-section input {
+    margin-left: 0;
+    margin-top: 10px;
+    width: 100%;
+    height: 20px;
+  }
+}
